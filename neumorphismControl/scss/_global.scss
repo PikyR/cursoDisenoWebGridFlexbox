@@ -1,0 +1,23 @@
+$color-background: #dfded0;
+$color-control: #e4e4e4;
+// $color-shadow-light: #e4e4e4;
+// $color-shadow-dark: #e4e4e4;
+
+$color-active: #51f7fe;
+$color-dark: #454545;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-background;
+}
