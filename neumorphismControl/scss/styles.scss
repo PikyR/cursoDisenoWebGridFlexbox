@@ -3,12 +3,25 @@
 .control {  
   height: 600px;
   width: 220px;
-  margin: 40px auto;
+  margin: 10px auto;
   padding: 6px;
   display: grid;
   grid-template-rows: auto 1fr;
   background-color: $color-control;
   border-radius: 12px;
+
+  border-top: solid 1px $color-grey;
+  border-left: solid 1px $color-grey;
+  border-right: solid 1px $color-grey-2;
+  border-bottom: solid 1px $color-grey-2;
+
+  box-shadow: 
+    rgba(0, 0, 0, 0.09) 2px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 4px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 8px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 12px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 24px 32px 16px
+  ;
 }
 
 .keyPad {
@@ -21,19 +34,22 @@
   background-color: $color-dark;
   border-radius: 8px;
 
+  
   &__btn {
     border-radius: 7px;
     border: none;
+    color: $color-font-primary;
+
+    box-shadow: 
+      white 2px 2px 2px 0px inset,
+      $color-grey-2 -2px -2px 1px 0px inset
+    ;
+      
   }
 }
 
-<<<<<<< HEAD
 .bottom {  
   margin: 60px 0 20px;
-=======
-.bottom {
-  height: auto;
->>>>>>> 41fe45b8aad9844d6971e2a0df2d28cf4efbc5b9
   display: flex;
   flex-direction: column;
   justify-content: space-between;
