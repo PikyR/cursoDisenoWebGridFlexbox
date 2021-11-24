@@ -6,26 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neumorfismo | Curso de Diseño Web con CSS Grid y Flexbox</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <main class="control"> 
       <section class="keyPad">
-        <button class="keyPad__btn">ON</button>
-        <button class="keyPad__btn">MC</button>
-        <button class="keyPad__btn">VU</button>
-        <button class="keyPad__btn">UP</button>
-        <button class="keyPad__btn">VD</button>
-        <button class="keyPad__btn">DW</button>
-        <button class="keyPad__btn">MN</button>
-        <button class="keyPad__btn">BK</button>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu keyPad__neu--active"><span class="material-icons">power_settings_new</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu"><span class="material-icons">mic_none</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu"><span class="material-icons">volume_up</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu"><span class="material-icons">keyboard_arrow_up</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu"><span class="material-icons">volume_down</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu"><span class="material-icons">keyboard_arrow_down</span></button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu">MENU</button>
+        </div>
+        <div class="keyPad__btn">
+          <button class="keyPad__neu">BACK</button>      
+        </div>
       </section>
       <section class="bottom">
         <section class="status">
-          <div class="status__mark">.</div>
-          <div class="status__mark">.</div>
-          <div class="status__mark">.</div>
-          <div class="status__mark">.</div>
-          <div class="status__mark">.</div>
+          <div class="status__mark status__mark--active"></div>
+          <div class="status__mark status__mark--active"></div>
+          <div class="status__mark status__mark--active"></div>
+          <div class="status__mark status__mark--active"></div>
+          <div class="status__mark"></div>
         </section>
         <p class="brand"><b>Pky</b>Rms</p>
       </section>

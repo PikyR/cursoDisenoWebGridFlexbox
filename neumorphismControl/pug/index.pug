@@ -3,19 +3,19 @@ extends template.pug
 block content
   main.control 
     section.keyPad
-      button.keyPad__btn ON
-      button.keyPad__btn MC
-      button.keyPad__btn VU
-      button.keyPad__btn UP
-      button.keyPad__btn VD
-      button.keyPad__btn DW
-      button.keyPad__btn MN
-      button.keyPad__btn BK
+      .keyPad__btn #[button.keyPad__neu.keyPad__neu--active #[span.material-icons power_settings_new]]
+      .keyPad__btn #[button.keyPad__neu #[span.material-icons mic_none]]
+      .keyPad__btn #[button.keyPad__neu #[span.material-icons volume_up]]
+      .keyPad__btn #[button.keyPad__neu #[span.material-icons keyboard_arrow_up]]
+      .keyPad__btn #[button.keyPad__neu #[span.material-icons volume_down]]
+      .keyPad__btn #[button.keyPad__neu #[span.material-icons keyboard_arrow_down]]
+      .keyPad__btn #[button.keyPad__neu MENU]
+      .keyPad__btn #[button.keyPad__neu BACK]      
     section.bottom
       section.status
-        .status__mark .
-        .status__mark .
-        .status__mark .
-        .status__mark .
-        .status__mark .
+        .status__mark.status__mark--active
+        .status__mark.status__mark--active
+        .status__mark.status__mark--active
+        .status__mark.status__mark--active
+        .status__mark
       p.brand #[b Pky]Rms
