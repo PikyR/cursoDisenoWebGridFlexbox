@@ -3,7 +3,7 @@
 .control {  
   height: 600px;
   width: 220px;
-  margin: 10px auto;
+  margin: 30px auto;
   padding: 6px;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -20,11 +20,7 @@
     91px 92px 76px rgba(0, 0, 0, 0.11),
     white 2px 2px 2px 0px inset,
     $color-grey-2 -2px -2px 1px 0px inset
-  ;
-
-
-
-   
+  ;   
 }
 
 .keyPad {
@@ -36,7 +32,6 @@
   
   background-color: $color-dark;
   border-radius: 8px;
-
   
   &__btn {
     display: flex;

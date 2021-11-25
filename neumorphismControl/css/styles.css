@@ -12,13 +12,13 @@ html {
 body {
   background-color: #d3d3d3;
   font-family: "Montserrat", sans-serif;
-  color: #d3d3d3;
+  color: #c7c7c7;
 }
 
 .control {
   height: 600px;
   width: 220px;
-  margin: 10px auto;
+  margin: 30px auto;
   padding: 6px;
   display: grid;
   grid-template-rows: auto 1fr;
